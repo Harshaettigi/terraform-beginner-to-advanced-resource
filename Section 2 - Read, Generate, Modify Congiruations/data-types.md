@@ -61,9 +61,6 @@ resource "aws_elb" "bar" {
 
 ```sh
 
-variable "usernumber" {
-  type = number
-}
 
 variable "elb_name" {
   type = string
